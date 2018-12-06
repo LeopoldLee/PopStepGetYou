@@ -1,0 +1,6 @@
+.ORIG x3000; LC-3 Assembly Language.
+LEA R0, POP_STEP_GET_YOU
+PUTS
+HALT
+POP_STEP_GET_YOU .STRINGZ "Pop step get you!"
+.END
